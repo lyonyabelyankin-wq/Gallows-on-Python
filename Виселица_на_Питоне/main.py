@@ -44,7 +44,7 @@ def key_press(event):
     
 def word_generation(words):
     w = choice(words)
-    hw = '_'*len(word)
+    hw = '_'*len(w)
     return w, hw
 def word_update(letter):
     global hidden_word, game_over
